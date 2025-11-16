@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+     transition: opacity 0.3s ease;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 1, 53);
+    color: white;
+    padding: 30px 90px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    
+}
+.menu-right a {
+    color: #f9f9f9;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+.menu-right a:hover{
+ color: rgb(255, 110, 43);   
+}
+span{
+    color: rgb(255, 110, 43);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+.acceuil.text {
+    display: flex;                 
+    align-items: left;            
+    justify-content: space-between; 
+    padding: 30px 90px;  
+    font-size: 18px;           
+}
+
+.acceuil {
+    max-width: 80%;                 
+    display: flex;
+    flex-direction: column;         
+    gap: 40px; 
+   line-height: 1.7 ;                     
+}
+
+.acceuil p {
+    font-size: 22px;
+    color: #000000;
+    font-size: 30px;
+    text-align: left;
+}
+.acceuil strong{
+    font-size: 32px;
+   color: rgb(250, 84, 8);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.acceuil h2{
+     gap: 5px;
+   color: rgb(250, 84, 8);
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+
+}
+   
+
+
+.acceuil button {
+    padding: 15px 20px;
+    background-color: rgb(0, 1, 53);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    max-width: 35%;
+}
+
+.acceuil button:hover {
+     background-color: rgb(250, 84, 8);
+}
+
+
+.photo { 
+
+    display: flex;
+    justify-content: flex-end; 
+    padding: 20px;
+}
+.photo img {
+    margin-top: -400px;
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+
+@media(max-width: 768px) {
+    .acceuil.text {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .acceuil {
+        max-width: 100%;
+    }
+
+    .photo img {
+        margin-top: 20px;
+        width: 180px;
+    }
+}
+
+section h2 {
+     font-size: 32px;
+   color: rgb(250, 84, 8);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: center;
+    color: #2b2828;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.skills-container h3 {
+    text-align: left;
+}
+
+.skill {
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+.bar {
+    width: 100%;
+    height: 6px;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+}
+
+.progress {
+    height: 100%;
+    background-color: rgb(0, 1, 53);
+    border-radius: 5px;
+}
+
+.contact-form {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(0, 1, 53);
+    margin-bottom:50px
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.two-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: rgb(0, 1, 53);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+      background-color: rgb(250, 84, 8);
+}
+
+.propos{
+    font-size: 18px;
+   color: rgb(0, 0, 0);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-bottom: 10px;
+     max-width: 83%;                 
+    display: flex;
+    flex-direction: column;         
+    gap: 9px; 
+   line-height: 1.3; 
+   justify-content: 1000px;
+}
+.propos h2{
+    text-align: center;
+}
+.propos strong{
+     color: rgb(250, 84, 8);
+        font-size: 19px;
+
+}
+
+
+ .cv a {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+     background-color: rgb(0, 1, 53);
+    color: white;
+    padding: 12px 20px;
+border-radius: 10px;
+cursor: pointer;
+max-width: 45%; 
+margin: 10px;
+margin-bottom: 100px;} 
+    
+
+ .cv a:hover { 
+    background-color: rgb(250, 84, 8);
+   }
+
+   
+.propos img{
+     display: flex;
+     width: 250px;           
+    height: 250px;          
+    border-radius: 50%;     
+    border: 4px solid orange; 
+          justify-content: 10px;
+     }
+    
+
+
+#projets {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#projets h2 {
+    color: rgb(250, 84, 8);
+    margin-bottom: 40px;
+}
+
+.projets-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.projet-card {
+    width: 280px;
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.projet-card p {
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.projet-card .tags {
+    color: rgb(110, 106, 106);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.projet-card a {
+    display: inline-block;
+    background-color: rgb(0, 1, 53);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.projet-card a:hover {
+    opacity: 0.8;
+    background-color: rgb(0, 1, 53);
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: 0.6s;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
